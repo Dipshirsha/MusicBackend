@@ -23,7 +23,7 @@ router.post("/register", async (req, res) => {
 });
 
 
-router.post("/", async (req, res) => {
+router.post("/userget", async (req, res) => {
 
   const { fireBaseId } = req.body;
 
